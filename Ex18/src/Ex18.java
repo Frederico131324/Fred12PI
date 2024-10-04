@@ -12,7 +12,7 @@ public class Ex18 {
                 num++;
             }
             if (num == 5){
-                break;
+               break;
             }
         
         }
