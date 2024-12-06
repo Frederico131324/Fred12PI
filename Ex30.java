@@ -16,7 +16,8 @@ public class Ex30 {
 
         System.out.println("Numero de Alunos: " + numero_alunos);
         System.out.println("Media Original: " + media);
-        System.out.println("Media convertida: " + media_inteiro);
+        System.out.println("Media convertida: " + media_inteiro
+        );
 
     }
 }
