@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f4f4f4;
+
+        }
+
+        .titulo {
+            margin-left: 35px;
+            color: blue;
+        }
+
+        .Botao {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .meuBotao {
+            width: 100px;
+            height: 37px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .tarefas1 {
+            width: 200px;
+            height: 16px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .listaTarefas {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .itemTarefa {
+            width: 315px;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<h1 class="titulo">Lista de tarefas</h1>
+<input type="text" id="tarefas" class="tarefas1" placeholder="Adicionar Nova Tarefa">
+<button type="button" class="Botao">Adicionar</button>
+
+<ul class="listaTarefas">
+    <li class="itemTarefa">Ir às compras <button type="button" class="meuBotao">Remover</button></li>
+    <li class="itemTarefa">Treinar <button type="button" class="meuBotao">Remover</button></li>
+    <li class="itemTarefa">Ler <button type="button" class="meuBotao">Remover</button></li>
+</ul>
+
+</body>
+</html>
